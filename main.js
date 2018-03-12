@@ -45,7 +45,7 @@ function myFunction(x) {
 
 //scrolling
 if ($('#back-to-top').length) {
-    var scrollTrigger = 100, // px
+    var scrollTrigger = 400, // px
         backToTop = function () {
             var scrollTop = $(window).scrollTop();
             if (scrollTop > scrollTrigger) {
