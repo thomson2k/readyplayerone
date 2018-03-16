@@ -1,0 +1,128 @@
+
+.body{
+	position: absolute;
+	top: -20px;
+	left: -20px;
+	right: 0px;
+	bottom: 0px;
+  width: auto;
+  height: auto;
+	background-image: url(img/dsa.jpg);
+	background-size: cover;
+	-webkit-filter: blur(4px);
+}
+.header{
+	position: absolute;
+	top: calc(30% );
+	right: calc(50% - 80px);
+	z-index: 2;
+
+}
+.login{
+	position: absolute;
+	top: calc(40% );
+	right: calc(50% - 130px);
+	z-index: 2;
+
+}
+.header div{
+	float: left;
+	color: #fff;
+	font-size: 35px;
+	font-weight: 200;
+	font-family: 'Exo', sans-serif;
+}
+.header div span{
+	color: #03396C;
+}
+.register {
+	position: absolute;
+	top: calc(60% );
+	right: calc(50% - 100px);
+	z-index: 2;
+	font-family: 'Roboto', sans-serif;
+	margin-top: 14px;
+}
+.register div span{
+	color: #03396C;
+}
+.register div {
+	color: white;
+	font-weight: bold;
+	font-size: 15px;
+}
+
+.login input[type=text]{
+	width: 250px;
+	height: 30px;
+	background: transparent;
+	border: 1px solid rgba(255,255,255,0.6);
+	color: #fff;
+	font-family: 'Exo', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	padding: 4px;
+	border-radius: 20px;
+	text-align: center;
+}
+
+.login input[type=password]{
+	width: 250px;
+	height: 30px;
+	background: transparent;
+	border: 1px solid rgba(255,255,255,0.6);
+	color: #fff;
+	font-family: 'Exo', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	padding: 4px;
+	margin-top: 10px;
+	border-radius: 20px;
+	text-align: center;
+}
+
+.login input[type=button]{
+	width: 260px;
+	height: 35px;
+	background: #fff;
+	border: 1px solid #fff;
+	cursor: pointer;
+	border-radius: 2px;
+	color: #034288;
+	font-family: 'Exo', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	padding: 6px;
+	margin-top: 10px;
+	border-radius: 20px;
+}
+
+.login input[type=button]:hover{
+	opacity: 0.8;
+}
+
+.login input[type=button]:active{
+	opacity: 0.6;
+}
+
+.login input[type=text]:focus{
+	outline: none;
+	border: 1px solid rgba(255,255,255,0.9);
+}
+
+.login input[type=password]:focus{
+	outline: none;
+	border: 1px solid #D3D3D3;
+}
+
+.login input[type=button]:focus{
+	outline: none;
+}
+
+::-webkit-input-placeholder{
+   color:#D3D3D3;
+}
+
+::-moz-input-placeholder{
+   color: #D3D3D3;
+}
