@@ -7,20 +7,23 @@
 	bottom: 0px;
   width: auto;
   height: auto;
-	background-image: url(img/dsa.jpg);
+	background-image: url(img/mac1.jpg);
 	background-size: cover;
 	-webkit-filter: blur(4px);
 }
+
+.show{
+	display:none;
+}
 .header{
 	position: absolute;
-	top: calc(30% );
-	right: calc(50% - 80px);
+	top: calc(10% );
+	right: calc(50% - 90px);
 	z-index: 2;
-
 }
 .login{
 	position: absolute;
-	top: calc(40% );
+	top: calc(35% );
 	right: calc(50% - 130px);
 	z-index: 2;
 
@@ -28,28 +31,37 @@
 .header div{
 	float: left;
 	color: #fff;
-	font-size: 35px;
-	font-weight: 200;
-	font-family: 'Exo', sans-serif;
+	font-size: 40px;
+	font-weight: bold;
+	font-family: 'Open Sans', sans-serif;
 }
 .header div span{
 	color: #03396C;
 }
-.register {
+.register  {
 	position: absolute;
-	top: calc(60% );
-	right: calc(50% - 100px);
+	top: calc(70% );
+	right: calc(50% - 60px);
 	z-index: 2;
-	font-family: 'Roboto', sans-serif;
-	margin-top: 14px;
+	font-family: 'Open Sans', sans-serif;
+	margin-top: 20px;
 }
 .register div span{
 	color: #03396C;
 }
-.register div {
+.register div  {
 	color: white;
 	font-weight: bold;
 	font-size: 15px;
+}
+#textchange{
+	color: white;
+	font-weight: bold;
+	font-size: 15px;
+	cursor:pointer;
+  font-size:15px;
+	text-align:center;
+	margin-top: 5px;
 }
 
 .login input[type=text]{
@@ -125,4 +137,15 @@
 
 ::-moz-input-placeholder{
    color: #D3D3D3;
+}
+@media only screen and (max-width: 600px) {
+
+
+			.body{
+				position: absolute;
+				background-image: url(img/mac1.jpg);
+				left: -130%;
+				-webkit-filter: blur(1px);
+			}
+
 }
