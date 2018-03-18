@@ -4,6 +4,7 @@
 		<meta charset="UTF-8">
 		<title>login</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="img/capy.png">
     <script type="text/javascript" src="https://code.jquery.com/jquery-1.9.1.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
@@ -11,33 +12,36 @@
     <meta name='viewport' content='width=device-width', initial-scale=1/>
 		<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,800" rel="stylesheet">
-
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
  </head>
  <body>
    <div class="body"></div>
 		<div class="header">
 			<div>Capy<span>Hub</span></div>
 		</div>
-		<br>
 		<div class="box">
 		<div class="login">
 				<input type="text"  placeholder="User" name="user"><br>
-				<input type="password" placeholder="Password" name="password"><br>
+				<div class="show">
+					<input type="email" placeholder="Email" name="email"><br>
+				</div>
+				<div>	<input type="password" placeholder="Password" name="password"><br>
+				<!-- 	<span toggle="#password-field"><i  class="material-icons field-icon toggle-password">remove_red_eye</i></span>-->
+				</div>
 				<div class="show">
 					<input type="password" placeholder="Confirm password" name="confirmpassword"><br>
 				</div>
-				<div class="show">
-					<input type="password" placeholder="Email" name="email"><br>
-				</div>
+
 				<div>
 					<input type="button" value="Login">
 				</div>
 		</div>
 
 		<div class="register">
-			<div><span><p id="plogintoregister">Not a member?</p> </span><p id="textchange" onclick="register()"> Sign up now!</p>  </div></div>
+			<div><span><p id="plogintoregister">Not a member?</p> </span>
+				<p id="textchange" onclick="register()"> Sign up now!</p>  </div>
 			</div>
-			<button id="buttonlogintoregister">Login</button>
+			<!-- <button id="buttonlogintoregister">Login</button> -->
 
     </div>
   <script  src="main.js"></script>

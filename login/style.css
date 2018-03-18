@@ -5,16 +5,31 @@
 	left: -20px;
 	right: 0px;
 	bottom: 0px;
-  width: auto;
-  height: auto;
+    width: auto;
+  	height: auto;
 	background-image: url(img/mac1.jpg);
 	background-size: cover;
 	-webkit-filter: blur(4px);
 }
-
 .show{
 	display:none;
 }
+/*
+.field-icon {
+  float: right;
+  margin-right: auto -40px;
+  margin-top: -30px;
+  position: relative;
+  z-index: 2;
+	color:#fff;
+}
+*/
+
+.container{
+  padding-top:50px;
+  margin: auto;
+}
+
 .header{
 	position: absolute;
 	top: calc(10% );
@@ -40,7 +55,7 @@
 }
 .register  {
 	position: absolute;
-	top: calc(70% );
+	top: calc(80% );
 	right: calc(50% - 60px);
 	z-index: 2;
 	font-family: 'Open Sans', sans-serif;
@@ -76,6 +91,20 @@
 	padding: 4px;
 	border-radius: 20px;
 	text-align: center;
+}
+.login input[type=email]{
+	width: 250px;
+	height: 30px;
+	background: transparent;
+	border: 1px solid rgba(255,255,255,0.6);
+	color: #fff;
+	font-family: 'Exo', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	padding: 4px;
+	border-radius: 20px;
+	text-align: center;
+	margin-top: 10px;
 }
 
 .login input[type=password]{
@@ -130,7 +159,6 @@
 .login input[type=button]:focus{
 	outline: none;
 }
-
 ::-webkit-input-placeholder{
    color:#D3D3D3;
 }
@@ -138,14 +166,25 @@
 ::-moz-input-placeholder{
    color: #D3D3D3;
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width:813px) {
 
-
+			/* display:block;*/
 			.body{
 				position: absolute;
 				background-image: url(img/mac1.jpg);
-				left: -130%;
+				
 				-webkit-filter: blur(1px);
 			}
-
+			.login {
+				position:absolute;
+				top: calc(20% );
+				right: calc(50% - 130px);
+				z-index: 2;
+			}
+			.header{
+				position:absolute;
+				top: calc(5%);
+				z-index: 2;
+			}
 }
+
