@@ -7,10 +7,11 @@
 	bottom: 0px;
     width: auto;
   	height: auto;
-	background-image: url(img/mac1.jpg);
+
 	background-size: cover;
 	-webkit-filter: blur(4px);
 }
+
 .show{
 	display:none;
 }
@@ -167,14 +168,6 @@
    color: #D3D3D3;
 }
 @media only screen and (max-width:813px) {
-
-			/* display:block;*/
-			.body{
-				position: absolute;
-				background-image: url(img/mac1.jpg);
-				
-				-webkit-filter: blur(1px);
-			}
 			.login {
 				position:absolute;
 				top: calc(20% );
