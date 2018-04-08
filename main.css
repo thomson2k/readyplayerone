@@ -47,6 +47,7 @@ p {
   letter-spacing: 2px;
   font-family: 'Cinzel', serif;
 }
+
 .introduction
  h1 {
   font-size: 50px;
@@ -68,6 +69,7 @@ p {
   padding-bottom: 6px;
   font-weight: bold;
 }
+
 @media only screen and (max-width: 766px) {
   .navbar-header {
     padding-top: 25px;
@@ -93,6 +95,19 @@ p {
   line-height: 1;
 
 }
+.parallax {
+    background-image: url("img/ready-player-one.jpg");
+    height: 150px;
+    background-attachment:fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top: 2px solid #D3D3D3;
+    border-right: 2px solid #D3D3D3;
+    border-left: 2px solid #D3D3D3;
+    border-bottom: 2px solid #D3D3D3;
+}
+
 @media only screen and (max-width: 766px) {
   .logo {
     float: none;
@@ -104,11 +119,13 @@ nav {
   width: 80%;
 
 }
+
 @media only screen and (max-width: 766px) {
   nav {
     width: 100%;
   }
 }
+
 nav ul {
   list-style: none;
   overflow: hidden;
@@ -116,6 +133,7 @@ nav ul {
   float: right;
 
 }
+
 @media only screen and (max-width: 766px) {
   nav ul {
     padding-top: 10px;
@@ -125,12 +143,14 @@ nav ul {
     width: 100%;
   }
 }
+
 nav ul li {
   display: inline-block;
   margin-left: 45px;
   line-height: 1.5;
   position: relative; top: 5px;
 }
+
 @media only screen and (max-width: 766px) {
   nav ul li {
     width: 100%;
@@ -138,12 +158,14 @@ nav ul li {
     margin: 0;
   }
 }
+
 nav ul a {
   color: white;
   text-transform: uppercase;
   font-size: 17px;
 
 }
+
 /* animated nav */
 .mobile-toggle {
   display: none;
@@ -154,11 +176,13 @@ nav ul a {
   top: 0;
   width: 30px;
 }
+
 @media only screen and (max-width: 766px) {
   .mobile-toggle {
     display: block;
   }
 }
+
 .mobile-toggle span {
   width: 30px;
   height: 4px;
@@ -167,6 +191,7 @@ nav ul a {
   background: #8f8f8f;
   display: block;
 }
+
 .bar1, .bar2, .bar3 {
     width: 32px;
     height: 5px;
@@ -175,16 +200,18 @@ nav ul a {
     transition: 0.6s;
     position: relative; bottom: 5px;
 }
+
 .change .bar1 {
     -webkit-transform: rotate(-45deg) translate(-9px, 6px) ;
     transform: rotate(-45deg) translate(-9px, 6px) ;
 }
+
 .change .bar2 {opacity: 0;}
 .change .bar3 {
     -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
     transform: rotate(45deg) translate(-8px, -8px) ;
 }
-/* */
+
 .row {
   width: 100%;
   max-width: 940px;
@@ -193,51 +220,62 @@ nav ul a {
   padding: 0 2%;
   font-family: 'Cinzel', serif;
 }
+
 footer {
       background-color:#EDE9DE;
       color: black;
       padding: 32px;
 }
+
 footer a:hover {
       color:#ede9de;
       text-decoration: none;
 }
+
 .textarea {
       resize: none;
 }
+
 .third{
     color: black;
     font-weight: bold;
 }
+
 .show-full {
     overflow: hidden;
-  }
+}
+
 .link-icon{
     position: relative;right: 10px;
     float: right;
     height: 70px;
 }
+
 .footer-copy {
     font-family: 'Nanum Brush Script', cursive;
     font-size: 25px;
     position: relative; auto;
 }
+
 #box {
   width: 170px;
   float: right;
   padding: 5px;
 }
+
 #img {
     border-radius: 50%;
     float: right;
     width: 170px;
 }
+
 .img-fluid {
   background-size: 80px;
   height: 60px;
   padding-top: 0px;
   display: inline-block;
 }
+
 #back-to-top {
     position: fixed;
     bottom: 20px;
@@ -255,12 +293,15 @@ footer a:hover {
     border-radius: 50%;
 
 }
+
 #back-to-top:hover {
     background: grey;
 }
+
 #back-to-top.show {
     opacity: 1;
 }
+
 #content {
     height: 2000px;
 }
