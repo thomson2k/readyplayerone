@@ -6,7 +6,7 @@ $(window).scroll(function() {
         $('.introduction').removeClass('sticky');
     }
 });
-
+//smooth scolling
 $('nav a').click(function(event) {
     var id = $(this).attr("href");
     var offset = 70;
@@ -32,7 +32,7 @@ $('.navbar-header li a').click(function() {
 });
 ///animated navbar
 function openNav() {
-    document.getElementById("mySidenav").style.width = "250px";
+    document.getElementById("mySidenav").style.width = "400px";
 }
 
 function closeNav() {
@@ -41,11 +41,9 @@ function closeNav() {
 function myFunction(x) {
     x.classList.toggle("change");
 }
-
-
 //scrolling
 if ($('#back-to-top').length) {
-    var scrollTrigger = 400, // px
+    var scrollTrigger = 500, // px
         backToTop = function () {
             var scrollTop = $(window).scrollTop();
             if (scrollTop > scrollTrigger) {

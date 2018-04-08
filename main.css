@@ -1,6 +1,7 @@
 * {
   box-sizing: border-box;
 }
+
 body {
   color: #8f8f8f;
   background: white;
@@ -9,9 +10,11 @@ body {
   -webkit-font-smoothing: antialiased;
   margin: 0;
 }
+
 a {
   text-decoration: none;
 }
+
 h1 {
   font-size: 30px;
   line-height: 1.8;
@@ -19,14 +22,17 @@ h1 {
   font-family: 'Open Sans', sans-serif;
 
 }
+
 p {
   margin-bottom: 20px;
   font-size: 17px;
   line-height: 2;
 }
+
 .content {
   padding: 50px 2% 250px;
 }
+
 .introduction
  {
   position: relative;
@@ -46,6 +52,7 @@ p {
   font-size: 50px;
   line-height: 1.3;
 }
+
 .navbar-header {
   position: fixed;
   top: 0px;
@@ -66,33 +73,36 @@ p {
     padding-top: 25px;
   }
 }
+
 .open-nav {
   max-height: 500px !important;
 }
+
+
 .sticky {
   background-color: black;
   opacity: 1;
   top: 0px;
   border-bottom: 1px solid gainsboro;
 }
+
 .logo {
-  width: 50px;
-  font-size: 27px;
-  color: #8f8f8f;
+  width: 20px;
   float: left;
   display: block;
-  margin-top: 0;
   line-height: 1;
-  margin-bottom: 10px;
+
 }
 @media only screen and (max-width: 766px) {
   .logo {
     float: none;
   }
 }
+
 nav {
   float: right;
   width: 80%;
+
 }
 @media only screen and (max-width: 766px) {
   nav {
@@ -104,6 +114,7 @@ nav ul {
   overflow: hidden;
   text-align: right;
   float: right;
+
 }
 @media only screen and (max-width: 766px) {
   nav ul {
@@ -131,6 +142,7 @@ nav ul a {
   color: white;
   text-transform: uppercase;
   font-size: 17px;
+
 }
 /* animated nav */
 .mobile-toggle {
@@ -238,9 +250,10 @@ footer a:hover {
     background: black;
     color: #298bf9;
     border-radius: 2px;
-    transition: opacity 0.2s ease-out;
+    transition: opacity 0.3s ease-out;
     opacity: 0;
     border-radius: 50%;
+
 }
 #back-to-top:hover {
     background: grey;
